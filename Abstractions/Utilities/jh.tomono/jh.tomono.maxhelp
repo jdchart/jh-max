@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 221.0, 91.0, 590.0, 573.0 ],
+		"rect" : [ 100.0, 91.0, 590.0, 573.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 39.0, 442.0, 265.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Everything will mix down to one channel equally.",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
@@ -166,7 +165,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 258.0, 418.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Set the destination buffer with the second argument, change again with the destination message.",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
@@ -180,7 +178,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 249.0, 151.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "destination destination_buf"
 				}
 
@@ -192,7 +189,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 207.0, 459.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Set the source buffer with the first argument, change again with the source message.",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
