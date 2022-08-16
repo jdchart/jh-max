@@ -26,10 +26,11 @@ A collection of abstractions that are designed, hopefully, to work together. The
 
 - `bufmstosamps`: convert ms to samples depending on a buffer's sampling rate.
 - `bufsampstoms`: convert samples to ms depending on a buffer's sampling rate.
+- `tomono`: convert a multichannel buffer into mono.
 
 ## JavaScript
 
-A set of JS files which can be imported as such: `var ut = require('utilities');`. Once this is done, they can be used within you JS or JSUI scripts (see the examples provided for more details). Note that much of the code is very old and hasn't yet been optimised. In the future, I intend to re-do much of this in a much more OOP style.
+A set of JS files which can be imported as such: `var ut = require('utilities');`. Once this is done, they can be used within you JS or JSUI scripts (see the examples provided for more details). Note that much of the code is very old and hasn't yet been optimised. In the future, I intend to redo much of this in a much more OOP style (notably the JSUI stuff).
 
 ### Utilities
 
@@ -66,3 +67,5 @@ A set of JS files which can be imported as such: `var ut = require('utilities');
 - `load_3d_array_from_dict(dict_obj, key)`: import a 3d array from a max patcher dict at the given key and transform it into an array (without keys).
 
 ## Projects
+
+A collection of ad hoc projects for my own musicking in Max.
