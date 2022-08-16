@@ -50,4 +50,12 @@ A set of JS files which can be imported as such: `var ut = require('utilities');
 - `includes(array, val)`: return a boolean, true if element is in array, false if not.
 - `get_distance(x1, y1, x2, y2)`: get the euclidean distance between two points.
 
+### OS
+
+- `get_cwd(box)`: give a patcher object (ususally `this`), and retrieve its directory as a string.
+- `join(prefix, sufix)`: join a folder directory and a filename together.
+- `get_relative(list)`: create relative paths. Give the starting path (must be absolute), then a series of `-`s for moving up or `folder name` for moving into a folder.
+- `load_json(file)`: load a json file and return the data.
+- `save_json(data, file)`: save json data to file.
+
 ## Projects
