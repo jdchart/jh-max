@@ -29,7 +29,7 @@ A collection of abstractions that are designed, hopefully, to work together. The
 
 ## JavaScript
 
-A set of JS files which can be imported as such: `var ut = require('utilities');`. Once this is done, they can be used within you JS or JSUI scripts (see the examples provided for more details).
+A set of JS files which can be imported as such: `var ut = require('utilities');`. Once this is done, they can be used within you JS or JSUI scripts (see the examples provided for more details). Note that much of the code is very old and hasn't yet been optimised. In the future, I intend to re-do much of this in a much more OOP style.
 
 ### Utilities
 
@@ -57,5 +57,12 @@ A set of JS files which can be imported as such: `var ut = require('utilities');
 - `get_relative(list)`: create relative paths. Give the starting path (must be absolute), then a series of `-`s for moving up or `folder name` for moving into a folder.
 - `load_json(file)`: load a json file and return the data.
 - `save_json(data, file)`: save json data to file.
+
+### JS Dicts
+
+- `export_2d_array_to_dict(dict_obj, key, array_2d)`: export a 2d array from js to a max patcher dict at the given key. The keys will be incremental numbers as strings.
+- `export_3d_array_to_dict(dict_obj, key, array_3d)`: export a 3d array from js to a max patcher dict at the given key. The keys will be incremental numbers as strings.
+- `load_2d_array_from_dict(dict_obj, key)`: import a 2d array from a max patcher dict at the given key and transform it into an array (without keys).
+- `load_3d_array_from_dict(dict_obj, key)`: import a 3d array from a max patcher dict at the given key and transform it into an array (without keys).
 
 ## Projects
