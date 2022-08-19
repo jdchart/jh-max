@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "Progress",
 					"id" : "obj-23",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -748,7 +748,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-37",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 1,
@@ -867,7 +866,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-14",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -1868,7 +1866,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 518.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1880,7 +1878,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 483.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1892,7 +1890,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 448.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1904,7 +1902,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 413.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1916,7 +1914,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 378.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1928,7 +1926,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 301.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufonsetslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufonsetslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1940,7 +1938,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 264.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufchroma~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufchroma~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1952,7 +1950,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 223.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufmelbands~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufmelbands~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1964,7 +1962,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 186.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufpitch~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufpitch~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1976,7 +1974,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 149.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufspectralshape~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufspectralshape~ #0_final_for_anal #2"
 								}
 
 							}
@@ -1988,7 +1986,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 355.0, 107.9710693359375, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufmfcc~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufmfcc~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3399,7 +3397,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 499.0, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3411,7 +3409,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 464.0, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3423,7 +3421,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 429.0, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3435,7 +3433,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 394.0, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3447,7 +3445,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 359.0, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3459,7 +3457,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 282.0, 392.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufonsetslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufonsetslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3471,7 +3469,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 245.0, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufchroma~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufchroma~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3483,7 +3481,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 204.0, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufmelbands~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufmelbands~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3495,7 +3493,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 167.0, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufpitch~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufpitch~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3507,7 +3505,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 130.0, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufspectralshape~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufspectralshape~ #0_final_for_anal #2"
 								}
 
 							}
@@ -3519,7 +3517,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 329.0, 88.0, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufmfcc~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufmfcc~ #0_final_for_anal #2"
 								}
 
 							}
@@ -4257,7 +4255,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 193.0, 479.0, 121.0, 49.0 ],
+									"patching_rect" : [ 193.0, 479.0, 109.0, 49.0 ],
 									"text" : "s #0_progress_count"
 								}
 
@@ -4904,7 +4902,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 333.0, 423.0, 373.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -4916,7 +4914,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 333.0, 388.0, 373.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -4928,7 +4926,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 333.0, 353.0, 373.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -4940,7 +4938,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 333.0, 318.0, 373.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -4952,7 +4950,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 333.0, 283.0, 373.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufnoveltyslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -4964,7 +4962,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 333.0, 200.0, 373.0, 22.0 ],
-									"text" : "singleanalslice fluid.bufonsetslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.bufonsetslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -4976,7 +4974,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 333.0, 163.0, 373.0, 22.0 ],
-									"text" : "singleanalslice fluid.buftransientslice~ #0_final_for_anal #2"
+									"text" : "_singleanalslice fluid.buftransientslice~ #0_final_for_anal #2"
 								}
 
 							}
@@ -5012,7 +5010,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 333.0, 124.0, 373.0, 22.0 ],
-									"text" : "singleanal fluid.bufchroma~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufchroma~ #0_final_for_anal #2"
 								}
 
 							}
@@ -5024,7 +5022,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 333.0, 83.0, 373.0, 22.0 ],
-									"text" : "singleanal fluid.bufmelbands~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufmelbands~ #0_final_for_anal #2"
 								}
 
 							}
@@ -5845,7 +5843,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 304.0, 121.0, 49.0 ],
+									"patching_rect" : [ 50.0, 304.0, 109.0, 49.0 ],
 									"text" : "s #0_progress_count"
 								}
 
@@ -6233,7 +6231,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-14",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -6316,7 +6313,6 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-1",
-																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -6365,7 +6361,6 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-14",
-																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
@@ -6532,7 +6527,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-9",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -6545,7 +6539,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-8",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 3,
 													"numoutlets" : 0,
@@ -6840,7 +6833,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 182.0, 219.0, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufloudness~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufloudness~ #0_final_for_anal #2"
 								}
 
 							}
@@ -6852,7 +6845,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 182.0, 181.0, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufpitch~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufpitch~ #0_final_for_anal #2"
 								}
 
 							}
@@ -6864,7 +6857,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 182.0, 144.0, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufspectralshape~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufspectralshape~ #0_final_for_anal #2"
 								}
 
 							}
@@ -6876,7 +6869,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 182.0, 102.0, 392.0, 22.0 ],
-									"text" : "singleanal fluid.bufmfcc~ #0_final_for_anal #2"
+									"text" : "_singleanal fluid.bufmfcc~ #0_final_for_anal #2"
 								}
 
 							}
@@ -7598,7 +7591,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-15",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -7646,7 +7638,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-2",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -7659,7 +7650,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-88",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -7708,7 +7698,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-81",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -7769,7 +7758,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-62",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -8063,7 +8051,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -8076,7 +8063,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -8089,7 +8075,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -8196,7 +8181,7 @@
 				"box" : 				{
 					"comment" : "Bang When Done",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -8219,11 +8204,11 @@
 				"box" : 				{
 					"comment" : "Ctrl In",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 4.0, 4.0, 30.0, 30.0 ]
 				}
 
@@ -8427,7 +8412,92 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "_singleanal.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/jh-max/Abstractions/Analysis/jh.bufanal",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_singleanalslice.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/jh-max/Abstractions/Analysis/jh.bufanal",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.bufchroma~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufcompose~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufflatten~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufloudness~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufmelbands~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufmfcc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufnoveltyslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufonsetslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufpitch~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufspectralshape~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufstats~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.buftransientslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jh.bufmstosamps.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/jh-max/Abstractions/Utilities/jh.bufmstosamps",
+				"patcherrelativepath" : "../../Utilities/jh.bufmstosamps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jh.bufsampstoms.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/jh-max/Abstractions/Utilities/jh.bufsampstoms",
+				"patcherrelativepath" : "../../Utilities/jh.bufsampstoms",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jh.tomono.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/jh-max/Abstractions/Utilities/jh.tomono",
+				"patcherrelativepath" : "../../Utilities/jh.tomono",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

@@ -18,7 +18,7 @@ I build upon lots of external libraries. To run many of these things, you will p
 
 - [FluCoMa toolkit](https://www.flucoma.org/).
 - [Bach library](https://www.bachproject.net/).
-- [jtol](https://www.opasquet.fr/jtol/)
+- [jtol](https://www.opasquet.fr/jtol/).
 
 ## Abstractions
 
