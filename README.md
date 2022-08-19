@@ -41,6 +41,13 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `bufsampstoms`: convert samples to ms depending on a buffer's sampling rate.
 - `tomono`: convert a multichannel buffer into mono.
 - `printbuf`: print the contents of a buffer to the Max console.
+- `countwrap`: wrapped or limited counting up and down.
+- `ctrlval`/`ctrlval~`: wrapper around the line object for quick control values.
+- `stereopan`: simple stereo panning from stereo or mono.
+- `pantest`: quickly check a stereo setup.
+- `randf`: random float generation.
+- `bufsamps`: get the number of samples in a buffer.
+- `bufdraw`: draw the contents of a buffer by hand.
 
 ## JavaScript
 
