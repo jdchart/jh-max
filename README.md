@@ -35,6 +35,14 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `jtol.generate`: this is a wrapper around several jtol objects designed to easily generate random tree structures.
 - `jtol.player`: this is a wrapper around several jtol objects designed to easily play levels from the generated tree structure.
 
+### FX
+
+- `spectralfreeze`: simple polyphonic spectral freezing with slide implementation.
+
+### Interface
+
+- `popupchoice`: GUI popup window asking the user for a choice.
+
 ### Utility
 
 - `bufmstosamps`: convert ms to samples depending on a buffer's sampling rate.
@@ -48,6 +56,8 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `randf`: random float generation.
 - `bufsamps`: get the number of samples in a buffer.
 - `bufdraw`: draw the contents of a buffer by hand.
+- `prob`: probability-driven random generation.
+- `windowbuf`: fill a buffer with a traditional curve for enveloping.
 
 ## JavaScript
 
