@@ -17,16 +17,30 @@ These all work on Max version 8.3.1. Compatibility previous to this is not assur
 I build upon lots of external libraries. To run many of these things, you will probably need to download the following packages:
 
 - [FluCoMa toolkit](https://www.flucoma.org/).
+- [Bach library](https://www.bachproject.net/).
+- [jtol](https://www.opasquet.fr/jtol/)
 
 ## Abstractions
 
-A collection of abstractions that are designed, hopefully, to work together. They should all have help files explaining how they work.
+A collection of abstractions that are designed, hopefully, to work together. They should all have help files explaining how they work. Everything is prefixed bu `jh.`.
+
+### Analysis
+
+- `bufanal`: compute various analyses on a buffer of sound.
+
+### jtol
+
+Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https://www.opasquet.fr/jtol/) objects.
+
+- `jtol.generate`: this is a wrapper around several jtol objects designed to easily generate random tree structures.
+- `jtol.player`: this is a wrapper around several jtol objects designed to easily play levels from the generated tree structure.
 
 ### Utility
 
 - `bufmstosamps`: convert ms to samples depending on a buffer's sampling rate.
 - `bufsampstoms`: convert samples to ms depending on a buffer's sampling rate.
 - `tomono`: convert a multichannel buffer into mono.
+- `printbuf`: print the contents of a buffer to the Max console.
 
 ## JavaScript
 
