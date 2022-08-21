@@ -319,6 +319,39 @@ exports.includes = function(array, val){
     }
 }
 
+// Return a combination of 1D arrays.
+exports.combine_array = function(array1, array2){
+    to_return = [];
+    for (el = 0; el < array1.length; el++){
+        to_return.push(array1[el]);
+    };
+    for (el = 0; el < array2.length; el++){
+        to_return.push(array2[el]);
+    };
+    return to_return;
+}
+
+// Add a given value to every element in an array.
+exports.offset_array = function(array_to_offset, offset_amount){
+    to_return = [];
+    for (el = 0; el < array_to_offset.length; el++){
+        to_return.push(array_to_offset[el] + offset_amount);
+    };
+    return to_return;
+};
+
+// Create an incremental array from min to max (not included) with given step.
+exports.range_array = function(min, max, step){
+    step = typeof step !== 'undefined' ? step : 1;
+
+    to_return = [];
+    for (el = min; el < max; el = el + step){
+        to_return.push(el);
+    };
+
+    return to_return;
+};
+
 // Get the euclidean distance between two points.
 exports.get_distance = function (x1, y1, x2, y2){
     return Math.sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
