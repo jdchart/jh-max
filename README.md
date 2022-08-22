@@ -60,6 +60,7 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `bufdraw`: draw the contents of a buffer by hand.
 - `prob`: probability-driven random generation.
 - `windowbuf`: fill a buffer with a traditional curve for enveloping.
+- `randdev`: randomly deviate around a value.
 
 ## JavaScript
 
