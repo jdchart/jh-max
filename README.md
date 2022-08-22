@@ -27,6 +27,8 @@ A collection of abstractions that are designed, hopefully, to work together. The
 ### Analysis
 
 - `bufanal`: compute various analyses on a buffer of sound.
+- `analselect`: retrieve desired analyses collected by `bufanal` from a buffer.
+- `analselectds`: retrieve desired analyses collected by `bufanal` that were pooled into a `fluid.dataset~`.
 
 ### jtol
 
@@ -80,6 +82,9 @@ A set of JS files which can be imported as such: `var ut = require('utilities');
 - `get_unique_key(key_list, max_range)`: The same as `get_unique_number()` but returns the value as a string.
 - `get_type(object)`: get the type of an object as a string.
 - `includes(array, val)`: return a boolean, true if element is in array, false if not.
+- `combine_array(array1, array2)`: return a combination of 1D arrays.
+- `offset_array(array_to_offset, offset_amount)`: add a given value to every element in an array.
+- `range_array(min, max, step)`: create an incremental array from min to max (not included) with given step (default 1).
 - `get_distance(x1, y1, x2, y2)`: get the euclidean distance between two points.
 
 ### OS
