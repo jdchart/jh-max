@@ -61,10 +61,18 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `prob`: probability-driven random generation.
 - `windowbuf`: fill a buffer with a traditional curve for enveloping.
 - `randdev`: randomly deviate around a value.
+- `recorder`: a multichannel recorder with save explode routing options.
 
 ## JavaScript
 
 A set of JS files which can be imported as such: `var ut = require('utilities');`. Once this is done, they can be used within you JS or JSUI scripts (see the examples provided for more details). Note that much of the code is very old and hasn't yet been optimised. In the future, I intend to redo much of this in a much more OOP style (notably the JSUI stuff).
+
+### PatchCtrl
+
+- `reset(patcher, term)`: delete any objects in a patch that were created by JS. The `term` corresponds to the script name keyword it will look for, by default this is `'jscreated'`.
+- `create_obj(patcher, x, y, object, args, term)`: create and return a Max object in a patcher. The `term` is the scripting name it will be given, by default this is `'jscreated'`.
+- `find_obj(patcher, scripting_name)`: find an object in a patcher by it's scripting name.
+- `get_box_info(patcher)`: return the dimensions of the JS object `[x, y, w, h]`.
 
 ### Utilities
 
