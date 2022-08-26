@@ -67,6 +67,7 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `randdev`: randomly deviate around a value.
 - `recorder`: a multichannel recorder with save explode routing options.
 - `simpleclock`: a signal-driven clock.
+- `dictbank`: build up a bank of dicts to query.
 
 ## JavaScript
 
