@@ -45,6 +45,10 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 
 - `popupchoice`: GUI popup window asking the user for a choice.
 
+### MIDI
+
+- `noteout`: a wrapper for noteout and makenote.
+
 ### Utility
 
 - `bufmstosamps`: convert ms to samples depending on a buffer's sampling rate.
@@ -62,6 +66,7 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `windowbuf`: fill a buffer with a traditional curve for enveloping.
 - `randdev`: randomly deviate around a value.
 - `recorder`: a multichannel recorder with save explode routing options.
+- `simpleclock`: a signal-driven clock.
 
 ## JavaScript
 
