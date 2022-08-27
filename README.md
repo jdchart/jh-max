@@ -29,6 +29,8 @@ A collection of abstractions that are designed, hopefully, to work together. The
 - `bufanal`: compute various analyses on a buffer of sound.
 - `analselect`: retrieve desired analyses collected by `bufanal` from a buffer.
 - `analselectds`: retrieve desired analyses collected by `bufanal` that were pooled into a `fluid.dataset~`.
+- `slicelist`: get a list of start end pairs from a FluCoMa slicing process.
+- `bufslice`: a variety of methods for slicing audio content in a buffer.
 
 ### jtol
 
