@@ -51,6 +51,14 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 
 - `noteout`: a wrapper for noteout and makenote.
 
+## Random
+
+- `randzl`: select random values from a list.
+- `randf`: random float generation.
+- `randdev`: randomly deviate around a value.
+- `prob`: probability-driven random generation.
+- `randdict`: get a random entry from a dict.
+
 ### Utility
 
 - `bufmstosamps`: convert ms to samples depending on a buffer's sampling rate.
@@ -61,15 +69,13 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `ctrlval`/`ctrlval~`: wrapper around the line object for quick control values.
 - `stereopan`: simple stereo panning from stereo or mono.
 - `pantest`: quickly check a stereo setup.
-- `randf`: random float generation.
 - `bufsamps`: get the number of samples in a buffer.
 - `bufdraw`: draw the contents of a buffer by hand.
-- `prob`: probability-driven random generation.
 - `windowbuf`: fill a buffer with a traditional curve for enveloping.
-- `randdev`: randomly deviate around a value.
 - `recorder`: a multichannel recorder with save explode routing options.
 - `simpleclock`: a signal-driven clock.
 - `dictbank`: build up a bank of dicts to query.
+- `zlpop`: pop a value from a list by index.
 
 ## JavaScript
 
