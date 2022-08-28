@@ -42,6 +42,7 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 ### FX
 
 - `spectralfreeze`: simple polyphonic spectral freezing with slide implementation.
+- `reverb`: wrapper around the yafr2 reverb object.
 
 ### Interface
 
