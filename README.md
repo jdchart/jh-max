@@ -59,6 +59,10 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `prob`: probability-driven random generation.
 - `randdict`: get a random entry from a dict.
 
+### Synthesizers
+
+- `granbuf`: a granular synth from a buffer.
+
 ### Utility
 
 - `bufmstosamps`: convert ms to samples depending on a buffer's sampling rate.
