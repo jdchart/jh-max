@@ -52,7 +52,7 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 
 - `noteout`: a wrapper for noteout and makenote.
 
-## Random
+### Random
 
 - `randzl`: select random values from a list.
 - `randf`: random float generation.
@@ -63,6 +63,11 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 ### Synthesizers
 
 - `granbuf`: a granular synth from a buffer.
+
+### Geometry
+
+- `circleangle`: retrieve the angle of a point in a circle.
+- `circlecoordinates`: get the coordinates of a point on a circle.
 
 ### Utility
 
@@ -133,3 +138,5 @@ A set of JS files which can be imported as such: `var ut = require('utilities');
 ## Projects
 
 A collection of ad hoc projects for my own musicking in Max.
+
+- `Batch Folder Analysis`: quickly analyse folders of sound.
