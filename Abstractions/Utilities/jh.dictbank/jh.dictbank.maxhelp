@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 656.0, 658.0 ],
+		"rect" : [ 2138.0, 90.0, 656.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 369.0, 267.0, 278.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "You can save and load banks for use another time.",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
@@ -82,7 +81,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 159.0, 289.0, 193.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Delete to remove the current entry.",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
@@ -161,7 +159,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 143.0, 191.0, 191.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Query the index to get a dict back.",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
@@ -198,7 +195,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 89.0, 625.0, 171.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "The queried dict will be output.",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
@@ -333,8 +329,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 87.0, 335.0, 20.0 ],
-					"text" : "Return the absolute path of the mge library on your computer.",
+					"patching_rect" : [ 10.0, 87.0, 517.0, 20.0 ],
+					"text" : "Add dictionaries to the abstraction, and output them at will. Save and load the collection of dicts.",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
 

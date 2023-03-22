@@ -59,6 +59,7 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `randdev`: randomly deviate around a value.
 - `prob`: probability-driven random generation.
 - `randdict`: get a random entry from a dict.
+- `randstring`: generate a random string.
 
 ### Synthesizers
 
@@ -68,6 +69,9 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 
 - `circleangle`: retrieve the angle of a point in a circle.
 - `circlecoordinates`: get the coordinates of a point on a circle.
+
+### Jitter
+- `datasettomatrix`: spill the contents of a fluid.dataset~ to a jitter matrix.
 
 ### Utility
 
@@ -86,6 +90,7 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `simpleclock`: a signal-driven clock.
 - `dictbank`: build up a bank of dicts to query.
 - `zlpop`: pop a value from a list by index.
+- `datasetindex`: get the index of a label, or the label from an index of a datapoint.
 
 ## JavaScript
 
