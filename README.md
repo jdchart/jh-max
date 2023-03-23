@@ -72,6 +72,7 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 
 ### Jitter
 - `datasettomatrix`: spill the contents of a fluid.dataset~ to a jitter matrix.
+- `matrixtodataset`: spill the contents of a jitter matrix to a fluid.dataset~.
 
 ### Utility
 
