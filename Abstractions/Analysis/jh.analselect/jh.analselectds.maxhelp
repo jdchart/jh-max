@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 875.0, 634.0 ],
+		"rect" : [ 1661.0, 121.0, 1200.0, 634.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,8 +108,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -474,8 +474,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -520,8 +520,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -714,8 +714,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -906,8 +906,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1758,7 +1758,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.libmanipulation.mxo",
+				"name" : "fluid.datasetquery~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1801,6 +1805,13 @@
 				"bootpath" : "~/Documents/Max 8/Library/jh-max/Abstractions/Utilities/jh.tomono",
 				"patcherrelativepath" : "../../Utilities/jh.tomono",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utilities.js",
+				"bootpath" : "~/Documents/Max 8/Library/jh-max/JavaScript/Utilities",
+				"patcherrelativepath" : "../../../JavaScript/Utilities",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

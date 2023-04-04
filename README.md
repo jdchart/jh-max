@@ -52,17 +52,27 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 
 - `noteout`: a wrapper for noteout and makenote.
 
-## Random
+### Random
 
 - `randzl`: select random values from a list.
 - `randf`: random float generation.
 - `randdev`: randomly deviate around a value.
 - `prob`: probability-driven random generation.
 - `randdict`: get a random entry from a dict.
+- `randstring`: generate a random string.
 
 ### Synthesizers
 
 - `granbuf`: a granular synth from a buffer.
+
+### Geometry
+
+- `circleangle`: retrieve the angle of a point in a circle.
+- `circlecoordinates`: get the coordinates of a point on a circle.
+
+### Jitter
+- `datasettomatrix`: spill the contents of a fluid.dataset~ to a jitter matrix.
+- `matrixtodataset`: spill the contents of a jitter matrix to a fluid.dataset~.
 
 ### Utility
 
@@ -81,6 +91,7 @@ Some wrappers around [Olivier Pasquet's](https://www.opasquet.fr/) [jtol](https:
 - `simpleclock`: a signal-driven clock.
 - `dictbank`: build up a bank of dicts to query.
 - `zlpop`: pop a value from a list by index.
+- `datasetindex`: get the index of a label, or the label from an index of a datapoint.
 
 ## JavaScript
 
@@ -133,3 +144,5 @@ A set of JS files which can be imported as such: `var ut = require('utilities');
 ## Projects
 
 A collection of ad hoc projects for my own musicking in Max.
+
+- `Batch Folder Analysis`: quickly analyse folders of sound.
