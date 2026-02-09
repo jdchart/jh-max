@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 254.0, 92.0, 90.0, 22.0 ],
+					"patching_rect" : [ 239.0, 75.0, 90.0, 22.0 ],
 					"text" : "jh.ctrlval~ 0.5 5"
 				}
 
@@ -54,11 +54,11 @@
 				"box" : 				{
 					"comment" : "Ctrl In",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 254.0, 11.0, 30.0, 30.0 ]
 				}
 
@@ -79,11 +79,11 @@
 				"box" : 				{
 					"comment" : "Audio In Mono",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 125.0, 11.0, 30.0, 30.0 ]
 				}
 
@@ -92,7 +92,7 @@
 				"box" : 				{
 					"comment" : "Audio In R",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -105,7 +105,7 @@
 				"box" : 				{
 					"comment" : "Audio In L",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -118,7 +118,7 @@
 				"box" : 				{
 					"comment" : "Audio Out L",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -130,7 +130,7 @@
 				"box" : 				{
 					"comment" : "Audio Out R",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -173,8 +173,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -400,8 +400,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -721,15 +721,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "jh.ctrlval~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/jh-max/Abstractions/Utilities/jh.ctrlval",
-				"patcherrelativepath" : "../jh.ctrlval",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2177.0, 186.0, 508.0, 612.0 ],
+		"rect" : [ 169.0, 176.0, 508.0, 612.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,8 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 440.5, 216.0, 47.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 285.0, 440.5, 218.0, 47.0 ],
 					"text" : "In mode 1, return going clockwise from 0° as 0,1 (0,1 = 0°, 1,0 = 90° and so on).",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
@@ -97,7 +96,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 440.5, 216.0, 47.0 ],
-					"presentation_linecount" : 6,
 					"text" : "In mode 1, return according to a traditional unit circle (1,0 = 0°, 0,1 = 90° and so on counter clockwise).",
 					"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 				}
@@ -184,7 +182,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 9.0, 271.0, 57.0 ],
-					"presentation_linecount" : 2,
 					"text" : "jh.circleangle"
 				}
 
@@ -221,7 +218,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 117.0, 128.0, 128.0 ]
+					"patching_rect" : [ 12.0, 117.0, 128.0, 128.0 ],
+					"rightvalue" : 100,
+					"topvalue" : 100
 				}
 
 			}
